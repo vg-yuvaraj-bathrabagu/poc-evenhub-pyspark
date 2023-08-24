@@ -26,8 +26,8 @@ def main():
     spark = initialize_spark()
 
     # Set up Event Hub configurations
-    event_hub_connection_str = "Endpoint=sb://testingyuva.servicebus.windows.net/;SharedAccessKeyName=yuva;SharedAccessKey=TVgQ7u7fsWWk3hk9lMiCAMhGPR008YV4D+AEhB6+3po=;EntityPath=json_data"
-    event_hub_name = "json_data"
+    event_hub_connection_str = "YOUR_EVENT_HUB_CONNECTION_STRING"
+    event_hub_name = "YOUR_EVENT_HUB_NAME"
 
     # Read JSON data as text
     file_path = "data/*.json"
